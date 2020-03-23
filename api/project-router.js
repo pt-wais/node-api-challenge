@@ -26,11 +26,12 @@ router.get('/:id', (req, res) => {
 
 router.get('/:id/actions', (req, res) => {
   const { id } = req.params;
-  projectData.getProjectActions(id).then((hub) => {
-    res.status(200).json(hub);
-  }).catch((err) => {
-    res.status(500).json({ error: 'didnt work' });
-  });
+  projectData.getProjectActions(id)
+    .then((hub) => {
+      res.status(200).json(hub);
+    }).catch((err) => {
+      res.status(500).json({ error: 'didnt work' });
+    });
 });
 
 router.post('/', (req, res) => {
