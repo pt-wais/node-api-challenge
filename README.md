@@ -40,13 +40,26 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+express is a middleware for node that takes care of the complicated parts of it.
+
+express also also helps makes the code easier to manager with routers
+
 - [ ] Describe Middleware?
+
+middleware is a code the is called after the the start and before a block of code is executed 
 
 - [ ] Describe a Resource?
 
+    resources are information that is stored and accessed in the backend
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+    a status with a code
+
+
 - [ ] How can we partition our application into sub-applications?
+
+express routing could be used to do that.
 
 ## Minimum Viable Product
 
